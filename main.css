@@ -1,0 +1,57 @@
+main {
+    width: 25vw;
+    margin: 50px auto;
+    padding: 20px;
+}
+body {
+    background-image: linear-gradient(to right, rgb(29, 28, 28) , rgb(41, 6, 29));
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+h3, p {
+    margin: 5px 0px;
+}
+.text-title {
+    font-size: 1.5em;
+}
+.text-content {
+    color: black;
+}
+.info-box {
+    position: relative;
+    animation-name: anim-div;
+    background-color: white;
+    box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.397);
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+#first-div {
+    animation-duration: 2s;
+}
+#second-div {
+    animation-duration: 3s;
+}
+#third-div {
+    animation-duration: 4s;
+}
+#fourth-div {
+    animation-duration: 4.5s;
+}
+#fifth-div {
+    animation-duration: 4.7s;
+}
+@keyframes anim-div {
+    0% {
+        left: -500px;
+    }
+    50% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
