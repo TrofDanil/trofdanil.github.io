@@ -1,2 +1,2 @@
-Lab 1
 Site about me
+https://trofdanil.github.io/
